@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
       - name: Activate Plugin 
         id: sncicd-plugin-activate # id of the step
-        uses: ServiceNow/sncicd-plugin-activate@1.0 # like username/repo-name
+        uses: ServiceNow/sncicd-plugin-activate@2.0.0 # like username/repo-name
         with:
           pluginID: com.servicenow_now_calendar
         env:
